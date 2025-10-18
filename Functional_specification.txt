@@ -32,6 +32,12 @@ Messaging: In-app chat; media restrictions; rate limits; block/report user; auto
 
 Plans: Free, Silver, Gold, Platinum; features matrix
 
+Reports: Shoud be able to click on usre and report with a mandatory comment 
+
+Notifications: Only in app notifications 
+
+
+
 
 
 
