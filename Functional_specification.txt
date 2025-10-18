@@ -1,0 +1,37 @@
+Business Requirements Document (BRD) checklist you can use to build a fully functional matrimony site with Django
+
+Primary users: Seekers, Parents/Guardians, Matchmakers (optional), Admin/Moderators, Customer Support.
+
+2) User roles and permissions
+
+    Guest: Browse landing pages, read FAQs, limited search teasers.
+    Registered Free User: Create profile, upload photos (with privacy controls), set match preferences, limited searches/day, send limited interests/messages.
+    Premium User: Unlimited search filters, see full photos/contact details (as per plan), boosted profile rank, priority support.
+    Parent/Guardian Account: Create/manage ward’s profile, communicate on their behalf (with consent).
+    Admin/Moderator: Approve/flag profiles/photos, handle disputes, manage CMS, offers, refunds, takedowns.
+    Customer Support: Read-only profile view + ticketing actions.
+
+3) Core functional requirements
+    3.1 Onboarding & identity
+    Account creation: Email/mobile OTP; social sign-in optional.
+    Profile types: Self / Parent / Guardian / Broker.
+    Verification: Email & phone mandatory;
+    Eligibility: Age ≥18 (women) / ≥21 (men) or your chosen policy; clear ToS/consent.
+
+3.2 Profile & preferences
+    Profile fields: Name (or display alias), age/DOB, height, education, occupation, income band, location (city/state/country), religion/denomination (optional), community (optional), languages, marital status, lifestyle (diet/smoke/drink), family details (optional), interests.
+    Sensitive attributes: Collect only with consent; make visibility user-controlled (e.g., show to “matches only”).
+    Photos & privacy: Original, blur/lock until interest accepted or premium; watermarking; face detection to reject inappropriate images.
+    Match preferences: Age/height range, location radius, education/occupation, lifestyle, religion/community (optional), languages, marital status, children preference.
+
+Search: Keyword + advanced filters; save searches; recent & recommended.
+
+Interest/Connect requests: Send/accept/decline; limited per day on free.
+
+Messaging: In-app chat; media restrictions; rate limits; block/report user; auto-moderation for abuse keywords.
+
+Plans: Free, Silver, Gold, Platinum; features matrix
+
+
+
+
